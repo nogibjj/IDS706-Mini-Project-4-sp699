@@ -1,0 +1,32 @@
+name: Python Matrix
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.9, 3.10.x, 3.11]
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: make install
+      - name: Run tests
+        run: make test
+      - name: Generate Graph and Markdown
+        run: python main.py
+      - name: Make lint
+        run: make lint
+      - name: format
+        run: make format
