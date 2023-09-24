@@ -1,4 +1,4 @@
-![Matrix Build](https://github.com/nogibjj/Suim-Park-Mini-Project-4/blob/main/.github/workflows/main.yml/badge.svg)
+![Matrix Build](https://github.com/nogibjj/Suim-Park-Mini-Project-4/actions/workflows/main.yml/badge.svg)
 # IDS-706-Data-Engineering :computer:
 
 ## Mini Project 4 :page_facing_up: 
