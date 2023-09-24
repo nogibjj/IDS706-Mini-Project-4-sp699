@@ -117,8 +117,8 @@ __`Step 4`__ : Check whether GitHub Action has different multiple Python version
 * `GitHub Actions Matrix Build`</br>
 ![image](https://github.com/suim-park/Mini-Project-4/assets/143478016/d6665a7e-2548-423d-8d35-ae50b603cbb6)</br>
 * `Makefile`: Check test, lint, and format at Codespace.</br>
-![image](https://github.com/suim-park/Mini-Project-4/assets/143478016/c8810ec7-aba1-4b86-ac26-3b2e16794d5a)</br>
-<img src="https://github.com/suim-park/Mini-Project-4/assets/143478016/70248962-e481-415d-9bd3-0c207660da43.png" width="450" height="140"/></br>
+![image](https://github.com/nogibjj/IDS706-Mini-Project-4-sp699/assets/143478016/5cb36590-b5f9-49d1-9ae6-d1eb45102ba6)</br>
+<img src="https://github.com/suim-park/Mini-Project-4/assets/143478016/c95f7ba3-75c1-4ebd-97b2-66fa3b7b2c7b.png" width="450" height="140"/></br>
 
 ## :ballot_box_with_check: Summary
 
