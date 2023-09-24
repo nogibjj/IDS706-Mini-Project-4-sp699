@@ -30,8 +30,8 @@ def draw_heat_map():
     sns.heatmap(pivot_table(), cmap="YlGnBu")
     plt.title("Heatmap of Flights Data (Colored)", fontsize=20)
 
-    directory_path = "C:/Users/suimp/OneDrive/Documents/Data Engineering/"
-    folder_name = "Mini-Project-4"
+    directory_path = "C:/Users/suimp/Data Engineering/"
+    folder_name = "Suim-Park-Mini-Project-4"
     save_folder = os.path.join(directory_path, folder_name)
 
     # Make a directory if it doesn't exist
