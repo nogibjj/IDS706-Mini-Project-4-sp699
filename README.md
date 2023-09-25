@@ -20,7 +20,7 @@
 __`Step 1`__ : Set up the environment to install multiple Python versions in GitHub Actions.
 - `requirements.txt`: Add `matplotlib`(version=3.8.0) and `seaborn`(version=0.12.2) packages.</br>
 <img src="https://github.com/suim-park/Mini-Project-4/assets/143478016/3a084460-3260-43c1-936a-14a56e898c82.png" width="160" height="180"/></br>
-- `main.yml`: Build the multiple Python versions in __main.yml__ file. In this repository, since I used `matplotlib` packages that is not applied below 3.9 versions, I only added the Python versions above 3.9, which are `3.9`, `3.10.x`, and `3.11`.</br>
+- `main.yml`: Build the multiple Python versions in __main.yml__ file. __In this repository, since I used `matplotlib` packages that is not applied below 3.9 versions, I only added the Python versions above 3.9, which are `3.9`, `3.10.x`, and `3.11`.__ </br>
 <img src="https://github.com/suim-park/Mini-Project-4/assets/143478016/39ec550e-faeb-4437-ad34-ed6f0633d836.png" width="400" height="640"/></br>
 - `Makefile`: Include the functions for install, test, lint, and format to automate the build.</br>
 <img src="https://github.com/suim-park/Mini-Project-4/assets/143478016/5c32a46b-6d6f-432b-a869-813684fd1bf8.png" width="470" height="330"/></br>
